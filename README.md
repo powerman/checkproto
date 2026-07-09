@@ -11,4 +11,7 @@
 ![macOS | amd64 arm64](https://img.shields.io/badge/macOS-amd64%20arm64-royalblue)
 ![Windows | amd64 arm64](https://img.shields.io/badge/Windows-amd64%20arm64-royalblue)
 
-Protobuf message comparison for github.com/powerman/check
+Protobuf message comparison for <https://github.com/powerman/check>.
+
+Import this package as a blank import in your test file or TestMain
+to enable `proto.Equal` comparison via `check.DeepEqual`/`check.NotDeepEqual`.

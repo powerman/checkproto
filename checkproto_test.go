@@ -11,7 +11,7 @@ import (
 
 func TestDeepEqualProto(tt *testing.T) {
 	tt.Parallel()
-	t := check.T(tt)
+	t := check.Must(tt)
 
 	// Two proto messages: equal via checker (proto.Equal).
 	t.DeepEqual(&emptypb.Empty{}, &emptypb.Empty{})
@@ -42,7 +42,7 @@ func TestDeepEqualProto(tt *testing.T) {
 
 func TestNotDeepEqualProto(tt *testing.T) {
 	tt.Parallel()
-	t := check.T(tt)
+	t := check.Must(tt)
 
 	// Two equal protos are not not-equal.
 	todo := t.TODO()
@@ -61,7 +61,7 @@ func TestNotDeepEqualProto(tt *testing.T) {
 
 func TestNonProtoValues(tt *testing.T) {
 	tt.Parallel()
-	t := check.T(tt)
+	t := check.Must(tt)
 
 	// Verify non-proto types are unaffected by the checker.
 	t.DeepEqual(nil, nil)

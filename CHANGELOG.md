@@ -5,6 +5,26 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.3.0] - 2026-10-28
+
+### 🔔 Changed
+
+- Require Go 1.26 by @powerman in [69506af]
+
+### 📦️ Dependencies
+
+- **(deps)** Upgrade go and golangci-lint by @powerman in [4857bd5]
+- **(deps)** Upgrade go modules by @powerman in [0db6ab4]
+- **(deps)** Upgrade go and golangci-lint by @powerman in [adef131]
+- **(deps)** Mise up by @powerman in [751c9af]
+
+[0.3.0]: https://github.com/powerman/checkproto/compare/v0.2.1..v0.3.0
+[4857bd5]: https://github.com/powerman/checkproto/commit/4857bd5039822b96a6e312d3eab33fb14d96dfd6
+[0db6ab4]: https://github.com/powerman/checkproto/commit/0db6ab4d9a2f50eefc9931b66e526b786ac66d36
+[adef131]: https://github.com/powerman/checkproto/commit/adef13161fecfff1a71b4c6156a7ef6614ec4236
+[69506af]: https://github.com/powerman/checkproto/commit/69506afbd2e59a7bc90a68d700de71d525d8b04f
+[751c9af]: https://github.com/powerman/checkproto/commit/751c9af067beae8b9561c7137d68a14df0f749c5
+
 ## [0.2.1] - 2026-07-11
 
 [0.2.1]: https://github.com/powerman/checkproto/compare/v0.2.0..v0.2.1
